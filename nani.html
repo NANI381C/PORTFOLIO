@@ -1,0 +1,119 @@
+<!-- Corrected HTML structure and fixed errors -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simham Nagasai Portfolio</title>
+</head>
+<body>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <a href="#about">
+            <button>About</button>
+        </a>
+        <a href="#skills">
+            <button>Skills</button>
+        </a>
+        <a href="#projects">
+            <button>Projects</button>
+        </a>
+        <a href="#contact">
+            <button>Contact</button>
+        </a>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>About Me</h1> 
+            <h2>Simham Nagasai</h2>
+            <img src="/Users/nani/Downloads/IMG_20231115_201610.jpg" alt="A photo of me">
+            <!-- <img src="https://via.placeholder.com/150" alt="A photo of me"> -->    
+            <p>Hi, I'm a passionate web developer with a focus on front-end technologies.<br>
+            I am currently pursuing my B.Tech at <em>RLJIT Doddapalapure</em>.</p>
+            <p>I have done web development from <br> Code with Swaroop</p>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Python Basics</li>
+                <li>HTML Basics</li>
+                <li>CSS Basics</li>
+                <li>JavaScript Basics</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <table border="1">
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Technologies Used</th>
+                </tr>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>A personal portfolio website to showcase my work.</td>
+                    <td>HTML, CSS, JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Simple Calculator</td>
+                    <td>A basic calculator application.</td>
+                    <td>HTML, CSS, JavaScript</td>
+                </tr>
+                <tr>
+                    <td>To-Do List App</td>
+                    <td>An app to manage daily tasks.</td>
+                    <td>HTML, CSS, JavaScript</td>
+                </tr>
+            </table>
+            <p>Here are some of the projects I've worked on:</p>
+            <ul>
+                <li>Portfolio Website</li>
+                <li>Simple Calculator</li>
+                <li>To-Do List App</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email or connect with me on social media.</p>
+            <ul>
+                <li>Email: simhamnagasai0@gmail.com</li>
+            </ul>
+        </section>
+        <section>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <b>Choose your gender:</b>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                <b>Select your interests:</b>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="reading" name="interests" value="reading">
+                <label for="reading">Reading</label>
+                <br>
+                <label for="bio">Bio (up to 200 characters):</label>
+                <input type="text" id="bio" name="bio" maxlength="200">
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2025 Simham Nagasai. All rights reserved.
+        </p>  
+    </footer>
+</body>
+</html>
